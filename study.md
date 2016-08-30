@@ -135,7 +135,7 @@ material. Instead, digest what you've read and repeat it in your own voice.
 In your own words, give a breif description of what HTTP is.
 
 ```md
-<!-- your answer here -->
+HTTPS is a type of language that the server understands when making a protocol.
 ```
 
 ## Describe what a client is and what a server is
@@ -143,7 +143,10 @@ In your own words, give a breif description of what HTTP is.
  What is a client is and what is a server? How do they interact with each other?
 
 ```md
-<!-- your answer here -->
+A client is either a user agent or a web client (amongst a few other things)
+requesting information
+from the server and the server is the 'thing' that stores the information and
+processes the request from the client and sends it back to client.
 ```
 
 ## Describe the 4 most common HTTP verbs
@@ -152,24 +155,27 @@ What are the 4 most common HTTP verbs used when creating a RESTful API. How
 would you use each?
 
 ```md
-<!-- your answer here -->
-```
+POST GET PUT PATCH
 
+```
 ## Describe what a Response is
 
 What is a response? what does it contain? What are some common status codes in a
 response and what do they mean?
 
 ```md
-<!-- your answer here -->
+A response is a message a server needs to return back to the client.
+HTTP status codes are either error codes or success codes, issued when
+a request is madesomething goes wrong.
+Example: 100 Continue,101 Switching Protocols,102 Processing (WebDAV; RFC 2518)
+(Wiki)
 ```
-
 ## Make a curl request
 
 Using curl, how would you get the content from Reddit.com?
 
 ```md
-<!-- your answer here -->
+curl --request GET https://www.reddit.com
 ```
 
 ## Describe the parts of a URL
@@ -179,5 +185,5 @@ refer to this list often in the next few weeks, so it's important to keep it in
 an easy-to-reference place.
 
 ```md
-<!-- your answer here -->
+(http)URL scheme(www.nishon)name(8080)port number(/iamthebestguy)url path
 ```
